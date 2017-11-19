@@ -1,0 +1,157 @@
+h1{
+    font-size: 24px;
+}
+.biolab-admin-auth-form{
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 230px;
+    background: #f1f1f1;
+    border: 1px solid #b3b3b3;
+    margin-top: 10%;
+    padding: 15px;
+}
+.biolab-admin-auth-form-two {
+    height: 160px;
+}
+.biolab-admin-auth-form-two .btn-success{
+    margin-top: 20px;
+}
+.btn-success{
+    width: 100%;
+    background-color: #2ba4ec;
+    border-color: #248ac6;    
+}
+.btn-success:hover, .btn-success:active, .btn-success:focus{
+    width: 100%;
+    background-color: #248ac6;
+    border-color: #248ac6;    
+}
+/*------------------------------------------------------------------------------*/
+.biolab-admin-main-header{
+    width: 100%;
+    background: #23282d;
+    color: #ccc;
+    height: 32px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    text-align: right;
+    padding: 7px 20px;
+}
+.biolab-admin-left-block{
+    width: 160px;
+    background: #23282d;
+    color: #ccc;
+    position: fixed;
+    top: 32px;
+    left: 0;
+    bottom: 0;
+    z-index: 999;   
+}
+.biolab-admin-left-block-logo{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.biolab-admin-left-block-logo img{
+    width: 100%;
+    height: auto;
+}
+.biolab-admin-left-block ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+.biolab-admin-left-block ul li{
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px;
+}
+.biolab-admin-left-block ul li:hover{
+    background: #101214;
+}
+.biolab-admin-left-block ul a{
+    color: #fff;
+    text-decoration: none;
+}
+.biolab-admin-left-block ul a:hover{
+    color: #00b9eb;
+    text-decoration: none;
+}
+.biolab-admin-right-block{
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    right: 0px;
+    padding: 30px;
+    background: #eee;
+    min-height: 100vh;
+}
+.biolab-admin-info_block{
+    width: 100%;
+    display: inline-block;
+    float: left;
+    background: #fff;
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+    padding: 30px;
+}
+.biolab-admin-info_block p {
+    margin: 0 0 30px;
+}
+.biolab-admin-news img{
+    height: 200px;
+    width: auto;
+}
+.biolab-admin-news-new-del, .biolab-admin-news-new-add {
+    padding: 7px 15px;
+    color: #00b9eb;
+    border: 1px solid #00b9eb;
+    border-radius: 3px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.biolab-admin-news-new-add{
+    padding: 7px 23px;    
+}
+.biolab-admin-news-new-del:hover, .biolab-admin-news-new-add:hover{
+    color: #fff;
+    background: #00b9eb;
+}
+.biolab-admin-add_new input, .biolab-admin-add_new textarea{
+    border: 1px solid #b3b3b3;
+    width: 100%;
+    border-radius: 3px;
+    padding: 7px;
+    margin-bottom: 15px;
+}
+
+.biolab-admin-regions tr td, .biolab-admin-clinics tr td{
+    padding: 10px 10px;
+}
+.biolab-admin-clinics select{
+    min-width: 200px;
+}
+
+/*------------------------------------------------------------------------------*/
+.biolab-admin-regions .biolab-admin-regions-update, .biolab-admin-regions .save,
+.biolab-admin-news-new .biolab-admin-regions-update, .biolab-admin-news-new .save,
+.biolab-admin-clinic-update, .biolab-admin-clinic-save{
+    display: none;
+}
+.biolab-admin-news-new input, .biolab-admin-news-new textarea {
+    margin-bottom: 15px;
+}
+.biolab-admin-pass input{
+    width: 200px;
+    margin-bottom: 17px;
+}
+#pdf-res .error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,8 @@
+# enable apache morRewrite module
+RewriteEngine on
+
+<FilesMatch "\.(?i:pdf)$">
+  ForceType application/octet-stream
+  Header set Content-Disposition attachment
+</FilesMatch>
+

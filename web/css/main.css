@@ -1,0 +1,558 @@
+body{
+    background: #fff;
+    min-width: 320px;
+    font-family: 'Open Sans', sans-serif;
+    color: #3c3c3b;
+}
+div, a, p{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+h2{
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;    
+}
+h3{
+    font-size: 16px;
+    text-transform: uppercase;    
+}
+h4{
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;  
+    margin-right: 7%;
+}
+.container{
+    /*width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;*/
+}
+.blue-bold-text{
+  font-weight: bold;
+  color: #248ac6;  
+}
+
+/*--------------------------------------menu-------------------------------------------*/
+.biolab-menu-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("../images/slider1.jpg") center no-repeat;
+    z-index: 2;
+    background-size: auto 100%;
+    display: none;
+    overflow: scroll;
+}
+.biolab-menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    min-height: 600px;
+    background:  rgba(0, 0, 0, 0.8);
+    z-index: 3;
+}
+.biolab-button-close_menu{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: url("../images/menu_close.png")  center no-repeat;
+    background-size: 50px 50px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1;    
+}
+.biolab-button-close_menu:hover, .biolab-button-close_menu:active, .biolab-button-close_menu:focus{
+    background-color: #68c7e4;
+}
+.biolab-menu-header{
+    background: url("../images/menu_logo.png")  center no-repeat;  
+    background-size: 280px 80px;
+    width: 280px;
+    height: 80px;
+    position: relative;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.biolab-menu-links{
+    width: 280px;
+    position: relative;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.biolab-menu-links img{
+    height: 18px;
+    width: auto;
+}
+.biolab-menu-links a{
+    color: #fff;
+    font-size: 18px;
+    line-height: 45px;
+}
+.biolab-menu-links a:hover, .biolab-menu-links a:active, .biolab-menu-links a:focus{
+    font-weight: bold;
+}
+.biolab-menu-link-border:hover, .biolab-menu-link-border:active, .biolab-menu-link-border:focus{
+     font-weight: normal!important;  
+     background: #595555;
+}
+.biolab-menu-link-border{
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 3px 12px;
+}
+.biolab-menu-links-2 hr{
+
+}
+.biolab-menu-links-2{
+    margin-top: 20px;
+}
+.biolab-menu-links-2 a{
+    line-height: 30px!important;
+}
+.biolab-menu-link{
+    font-size: 13px!important;
+    text-transform: uppercase;
+    color: #dbdbdb!important;
+}
+/*--------------------------------------header-------------------------------------------*/
+.biolab-header{
+    height: 90px;
+    position: relative;
+    width: 100%;
+    top: 0;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.biolab-button-show_menu{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: url("../images/menu_button.png")  center no-repeat;
+    background-size: 50px 50px;
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    cursor: pointer;
+    z-index: 1;
+}
+.biolab-button-show_menu:hover, .biolab-button-show_menu:active, .biolab-button-show_menu:focus{
+    background-color: #68c7e4;
+}
+.biolab-header-h1{
+    margin-top: 25px;
+    position: relative;
+    width: 75%;
+    text-align: center;
+    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*------------------------------------------slider---------------------------------------*/
+.biolab-slider{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.biolab-slider img{
+    height: auto;
+    width: 100%;
+    margin-top: -5%;
+    margin-bottom: auto;
+}
+.biolab-slider .carousel{
+    height: 100%;
+    width: auto;
+    position: relative;
+}
+.biolab-slider .carousel img{
+    margin-top: -15%;
+}
+.carousel-indicators {
+    bottom: 0;
+    z-index: 1;
+}
+/*------------------------------------------home-blue buttons---------------------------------------*/
+.biolab-home-buttons{
+    position: relative;
+    float: left;
+    width: 100%;
+    /*height: 60px;*/
+    margin-top: 15px;
+}
+.biolab-home-buttons-container{
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.biolab-home-buttons-container.patients {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 440px;
+  text-align: center;
+  width: 100%;
+}
+.biolab-home-button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+.biolab-home-button{
+    text-align: center;
+    display: inline-block;
+    width: 145px;
+    float: left;
+    background: #2489c5;
+    padding: 7px 20px;
+    border-bottom: 3px solid #006ea6;
+    border-left: 1px solid #fff;
+    height: 60px;
+	margin-bottom: 2px;
+}
+.biolab-home-button-active{
+    background: linear-gradient(to top, #248ac6, #2ba4ec);
+}
+.biolab-home-button-active:hover,.biolab-home-button-active:active,.biolab-home-button-active:focus{
+    background: #2489c5;
+}
+.biolab-home-button-active a{
+    font-weight: bold;
+}
+#biolab-home-button1:hover,#biolab-home-button1:active,#biolab-home-button1:focus{
+    background: linear-gradient(to top, #248ac6, #2ba4ec);    
+}
+#biolab-home-button2:hover,#biolab-home-button2:active,#biolab-home-button2:focus{
+    background: linear-gradient(to top, #248ac6, #2ba4ec);    
+}
+/*------------------------------------------home news---------------------------------------*/
+.biolab-home-news{
+    position: relative;
+    float: left;
+    width: 100%;
+    display: inline-block;
+    margin-top: 15px;   
+    margin-bottom: 25px;
+}
+#biolab-home-news2, #biolab-home-news3{
+    display: none;
+}
+.biolab-home-news i{
+    color: #959595;
+}
+.biolab-home-news-new {
+    margin: 0 3%;
+    position: relative;  
+    width: 94%;
+    border: 1px solid #959595;
+    padding: 2%;
+    min-height: 45px;
+}
+.biolab-home-news-new span{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+}
+.biolab-home-news-new p{
+    margin-top: 15px;
+    font-size: 14px;
+    display: none;
+    color: #4c4c4c;
+}
+
+.biolab-home-analitique{
+    width: 100%;
+    border-bottom: 1px solid #000;
+    padding: 5px;
+}
+
+.biolab-home-analitique-img{
+    width: 100%;
+    height: 150px;
+    border-bottom: 2px solid #248ac6;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.biolab-home-analitique-img img{ 
+    width: 100% !important;
+    height: auto !important;
+    max-width: 720px;
+    margin-top: -20%;
+}
+/*------------------------------------------labs---------------------------------------*/
+.biolab-labortiries-search{
+    position: relative;
+    float: left;
+    width: 100%;
+    display: inline-block;
+    margin-top: 15px;   
+    margin-bottom: 25px;
+}
+.biolab-labortiries-search-box{
+    width: 300px;
+    height: 39px;
+    line-height: 39px;
+    border: 1px solid #d0d0d0;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to top, #e7e8e8, #fff); 
+    cursor: pointer;
+}
+.biolab-labortiries-search-box p{
+    margin-left: 15px; 
+}
+.biolab-labortiries-search-input{
+    width: 300px;
+    height: 39px;
+    border: 1px solid #d0d0d0;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.biolab-labortiries-search-input input{
+    width: 260px;
+    height: 37px;
+    float: left;
+    border: none;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.biolab-labortiries-search-input i {
+  background: #fff ;
+  bottom: 0;
+  color: #ddd;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px 9px 5px 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-left: 1px solid #ddd;
+}
+.biolab-labortiries-search-input.active i {
+  background: #68c7e4 ;
+  color: #fff;
+
+}
+.biolab-labortiries-search-items{
+    width: 300px;
+    border: 1px solid #d0d0d0;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;  
+    display: none;
+}
+.biolab-labortiries-search-items p{
+    padding: 7px;
+    cursor: pointer;
+}
+.biolab-labortiries-search-items p:hover{
+    background: #68c7e4;  
+}
+.biolab-labortiries-search-item-active{
+    background: #68c7e4;  
+}
+.biolab-labortiries-search-box-chewron{
+    background: #68c7e4;
+    padding: 0px 11px;
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+    top: -1px;
+    right: 0;
+}
+
+.biolab-laboratiries{
+    position: relative;
+    float: left;
+    width: 100%;
+    display: inline-block;
+    margin-top: 15px;   
+    margin-bottom: 25px;
+}
+.biolab-laboratirie i{
+    color: #959595;
+}
+.biolab-laboratirie {
+    margin: 0 3%;
+    position: relative;  
+    width: 94%;
+    border: 1px solid #959595;
+    padding: 2% 4%;
+    min-height: 45px;
+    margin-bottom: 10px;
+    display: none;
+}
+.biolab-laboratirie h3{
+    margin: 0;
+    padding: 0;
+}
+.biolab-laboratirie-short-address{
+    margin: 0;
+    margin-right: 10%;
+}
+.biolab-laboratirie span{
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    background: #68c7e4;
+    padding: 7px 11px;
+    color: #fff;
+    cursor: pointer;
+}
+.biolab-laboratirie span i{
+    color: #fff;
+}
+.biolab-laboratirie-more_info{
+    line-height: 25px;
+    font-size: 13px;
+    margin-top: 10px;
+    display: none;
+}
+.biolab-laboratirie h3{
+    width: 75%;
+}
+/*--------------------------------------------------------------------------------*/
+.biolab-patients{
+    position: relative;
+    width: 95%;
+    margin-top: 15px;   
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-right: 2px solid #68c7e4;
+    padding-right: 10px; 
+}
+.biolab-patients h2{
+    font-size: 20px;
+}
+.biolab-patients-info_block{
+    position: relative;
+    min-height: 100px;
+    line-height: 25px;
+}
+.biolab-patients-info_block span{
+    margin-left: 30px;
+    color: #68c7e4;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+.biolab-patients-info_block p{
+    margin-left: 70px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.biolab-patients-info_block-arrow{
+    border-radius: 50%;
+    width: 50px;
+    height: 80px;
+    background: url("../images/arrow.png") center no-repeat;
+    background-size: 70% 70%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    cursor: pointer;
+    z-index: 1;
+}
+.biolab-patients-button{
+    width: 180px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.biolab-patients-button .biolab-home-button{
+    width: 180px;
+    padding-top: 20px;
+}
+/*-------------------------------------------prof-------------------------------------*/
+.biolab-prof-block{
+    position: relative;
+    min-height: 320px;
+    line-height: 25px;
+}
+.biolab-prof-block p{
+    margin-left: 20px;
+}
+.biolab-prof-button{
+    width: 220px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.biolab-prof-button .biolab-home-button{
+    width: 220px;
+}
+.biolab-mention-page-inner{
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.biolab-mention-page{
+    display: inline-block;
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+}
+.distance {
+	font-weight: normal;
+  margin: 0 10px 0 0px;
+  color: #68c7e4;
+
+}
+.biolab-download-pdf {
+  border-bottom: 1px solid #ddd;
+  display: inline-block;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  width: 100%;
+}
+.biolab-download-pdf:last-child { border-bottom: none;}
+.biolab-download-pdf i {
+  color: red;
+  margin-right: 5px;
+}
+form .form-item {
+  margin: 0 0 20px 0;
+}
+form .form-item label {
+  width: 70px;
+  vertical-align: top;
+}
+form .form-item input {
+  max-width: 200px;
+  width: 100%;
+}
+.form-wrapper {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+  position: relative;
+}
+.form-btn {
+  margin-left: 55px;
+  text-align: center;
+}
